@@ -11,7 +11,7 @@
   left: 0;
   width: 100%;
   background: #7c56c8;
-  height: 100px;
+  height: 145px;
 }
 
 .nav {
@@ -65,4 +65,27 @@
 .nav-items a img {
   height: 50px;
   width: auto;
+}
+
+.links-container {
+  width: 100;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 10px 10vh;
+  border-top: 1px solid #c8b3ee;
+}
+
+.link {
+  text-transform: capitalize;
+  padding: 0 10px;
+  margin: 0 5px;
+  text-decoration: none;
+  color: #f2ada2;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.link:hover {
+  opacity: 1;
 }
